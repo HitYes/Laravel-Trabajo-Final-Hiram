@@ -34,21 +34,21 @@
     <!--barra de navegacion-->
     <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">Inicio</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#">Destinos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Hoteles</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            Restaurantes
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -58,7 +58,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
+          <a class="nav-link disabled">Playas</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -95,5 +95,44 @@
         <!-- Navbar content -->
     </nav>
    </header>
+
+    <!---Placeholders--->
+    <div class="card">
+        <img src="https://img.ev.mu/images/villes/4069/600x240/4069.jpg" class="card-img-top" alt="...">
+
+        <div class="card-body">
+            <h5 class="card-title">Playas de Lima</h5>
+            <p class="card-text">Las playas de Lima son las mejores del mundo.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://www.peruhop.com/wp-content/uploads/cities-in-peru.jpg" class="card-img-top" alt="...">
+
+        <div class="card-body">
+            <h5 class="card-title">Lima</h5>
+            <p class="card-text">Lima vista desde un dron. Imagenes de alta definicion.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+    
+    <!--<div class="card" aria-hidden="true">
+        <img src="https://tipsparatuviaje.com/wp-content/uploads/2019/07/lima-peru-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title placeholder-glow">
+                <span class="placeholder col-6"></span>
+            </h5>
+            <p class="card-text placeholder-glow">
+                <span class="placeholder col-7"></span>
+                <span class="placeholder col-4"></span>
+                <span class="placeholder col-4"></span>
+                <span class="placeholder col-6"></span>
+                <span class="placeholder col-8"></span>
+            </p>
+            <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+        </div>
+    </div>--->
+
 </body>
 </html>
