@@ -28,95 +28,108 @@
 
 </head>
 <body>
-    <header>
+  <header>
     <center><h1>CITY TOURS</h1></center>
 
     <!--barra de navegacion-->
     <nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Inicio</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Destinos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Hoteles</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Restaurantes
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Destinos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hoteles</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Restaurantes
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Playas</a>
+            </li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Playas</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
 
     <center><img src="https://blog.uber-cdn.com/cdn-cgi/image/width=2161,height=1081,quality=80,onerror=redirect,format=auto/wp-content/uploads/2019/08/6-sitios-tur%C3%ADsticos-cerca-de-Lima-que-te-asombrar%C3%A1n-por-su-belleza.png" class="img-fluid" class="w=100" class="h-100" alt="..."></center>
     
 
     <!---Login--->
     <form>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-        </div>
-        <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
     </form>
-
-    
+ 
     <nav class="navbar" style="background-color: #e3f2fd;">
-        <!-- Navbar content -->
+      <!-- Navbar content -->
     </nav>
-   </header>
-
+  </header>
+  <!--Marcadores de posición-->
+    <p class="placeholder-glow">
+      <span class="placeholder col-12"></span>
+    </p>
+<!-- Fin de Marcadores de posición-->
     <!---Placeholders--->
     <div class="card">
-        <img src="https://img.ev.mu/images/villes/4069/600x240/4069.jpg" class="card-img-top" alt="...">
+      <img src="https://img.ev.mu/images/villes/4069/600x240/4069.jpg" class="card-img-top" alt="...">
 
-        <div class="card-body">
-            <h5 class="card-title">Playas de Lima</h5>
-            <p class="card-text">Las playas de Lima son las mejores del mundo.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+      <div class="card-body">
+        <h5 class="card-title">Playas de Lima</h5>
+        <p class="card-text">Las playas de Lima son las mejores del mundo.</p>
+        <a href="#" class="btn btn-primary">Ir a alguna parte</a>
+      </div>
     </div>
+    <!--Marcadores de posición-->
+    <p class="placeholder-glow">
+      <span class="placeholder col-12"></span>
+    </p>
+
+    <!--<p class="placeholder-wave">
+      <span class="placeholder col-12"></span>
+    </p>-->
+    <!-- Fin de Marcadores de posición-->
 
     <div class="card">
-        <img src="https://www.peruhop.com/wp-content/uploads/cities-in-peru.jpg" class="card-img-top" alt="...">
+      <img src="https://www.peruhop.com/wp-content/uploads/cities-in-peru.jpg" class="card-img-top" alt="...">
 
-        <div class="card-body">
-            <h5 class="card-title">Lima</h5>
-            <p class="card-text">Lima vista desde un dron. Imagenes de alta definicion.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+      <div class="card-body">
+        <h5 class="card-title">Lima</h5>
+        <p class="card-text">Lima vista desde un dron. Imagenes de alta definicion.</p>
+        <a href="#" class="btn btn-primary">Ir a alguna parte</a>
+      </div>
     </div>
     
+    <!---Fin de Placeholders--->
     <!--<div class="card" aria-hidden="true">
         <img src="https://tipsparatuviaje.com/wp-content/uploads/2019/07/lima-peru-1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
